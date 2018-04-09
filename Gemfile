@@ -12,6 +12,8 @@ gem 'rails', '~> 5.1.5'
 gem 'dotenv-rails', require: 'dotenv/rails-now'
 gem "slim"
 gem "slim-rails", :require => false
+gem 'jquery-rails'
+gem 'bootstrap-sass', '~> 3.3.7'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'

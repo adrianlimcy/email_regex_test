@@ -1,8 +1,12 @@
+Reference: https://docs.microsoft.com/en-us/outlook/rest/ruby-tutorial
+
 1. add gems
     gem 'dotenv-rails', require: 'dotenv/rails-now'
     gem "slim"
     gem "slim-rails", :require => false
     gem 'rspec-rails'
+    gem 'bootstrap', '~> 4.0.0'
+    gem 'jquery-rails'
 2. rails generate rspec:install
 3. rails db:migrate
 4. gitignore
