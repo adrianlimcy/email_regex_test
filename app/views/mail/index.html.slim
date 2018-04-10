@@ -1,0 +1,20 @@
+h1
+  | My messages
+
+table class="table"
+  tr
+    th
+      | From
+    th
+      | Subject
+    th
+      | Received
+  - @messages.each do |message|
+    tr
+      td
+        == message.from.email_address.name
+      td
+        == message.subject
+      td
+        == message.received_date_time
+    
