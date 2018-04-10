@@ -9,6 +9,8 @@ table class="table"
       | Subject
     th
       | Received
+    th
+      | Body
   - @messages.each do |message|
     tr
       td
@@ -17,4 +19,5 @@ table class="table"
         == message.subject
       td
         == message.received_date_time
-    
+      td
+        == message.body_preview

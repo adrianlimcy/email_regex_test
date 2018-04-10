@@ -8,8 +8,12 @@ module AuthHelper
   # Scopes required by the app
   SCOPES = [ 'openid',
              'profile',
+             'offline_access',
              'User.Read',
-             'Mail.Read' ]
+             'Mail.Read',
+             'Calendars.Read',
+             'Contacts.Read']
+
 
   # Generates the login URL for the app.
   def get_login_url

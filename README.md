@@ -1,4 +1,5 @@
 Reference: https://docs.microsoft.com/en-us/outlook/rest/ruby-tutorial
+JSOn Reference (Mail) : https://developer.microsoft.com/en-us/graph/docs/api-reference/v1.0/resources/message
 
 1. add gems
     gem 'dotenv-rails', require: 'dotenv/rails-now'
@@ -23,4 +24,3 @@ Reference: https://docs.microsoft.com/en-us/outlook/rest/ruby-tutorial
 11. rails generate active_record:session_migration
 12. rails db:migrate
     Note that there is a need to put [5.1] in the migration file to stop the errors
-13. 

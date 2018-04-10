@@ -1,0 +1,19 @@
+h1
+  | My events
+table class="table"
+  tr
+    th
+      | Subject
+    th
+      | Start
+    th
+      | End
+
+  -@events.each do |event|
+    tr
+      td
+        == event.subject
+      td
+        == event.start.date_time
+      td
+        == event.end.date_time

@@ -1,0 +1,18 @@
+h1
+  | My contacts
+table class="table"
+  tr
+    th
+      | First Name
+    th
+      | Last Name
+    th
+      | Email
+  - @contacts.each do |contact|
+    tr
+      td
+        == contact.given_name
+      td
+        == contact.surname
+      td
+        == contact.email_addresses[0].address
