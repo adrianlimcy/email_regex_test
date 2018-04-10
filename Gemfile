@@ -14,6 +14,9 @@ gem "slim"
 gem "slim-rails", :require => false
 gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.3.7'
+gem 'oauth2'
+gem 'activerecord-session_store'
+gem 'microsoft_graph'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
